@@ -1,0 +1,10 @@
+[package]
+name = "jmd-linux"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nix = { version = "0.29", features = ["ptrace", "signal"] }
+anyhow = "1.0"
+procfs = "0.17"
+memmem = "0.1"
